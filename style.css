@@ -313,6 +313,7 @@ body.mobile-menu-active .mobile-menu{
 
 .hero .hero-inner .text-wrap .cta-btns > * + *{
     margin-left: 1.88rem;
+    margin-bottom: 2rem;
 }
 
 .hero .hero-inner .text-wrap .cta-btns .btn-primary{
@@ -1571,6 +1572,8 @@ height: .813rem;
 
     .hero .hero-inner .text-wrap .cta-btns .btn-primary{
         margin-bottom: 2rem;
+        padding: 9px;
+        font-size: 0.8rem;
     }
 
     .what-we-after .inner .img-wrap img{
@@ -1617,6 +1620,16 @@ height: .813rem;
         width: 100%;
         display: inline-block;
         text-align: center;
+    }
+
+    .testimonial .testimonial-inner .testimony{
+        max-width: 100%
+    }
+
+    .testimonial .testimonial-inner .testimony > .img-wrap > .quote{
+        right: -0.3rem;
+        width: 1rem;
+        height: 2rem;
     }
 
     .what-we-after .inner .text-wrap .text-wrap-inner ul{
@@ -1699,7 +1712,8 @@ height: .813rem;
     }
 
     .why-us .why-us-inner .text-wrap .cta-btns > * + *{
-        margin-left: 0;
+        margin-left: 1rem;
+        margin-bottom: 2rem;
     }
 
     .why-us .why-us-inner .text-wrap .cta-btns .btn-dark{
